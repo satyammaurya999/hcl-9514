@@ -5,6 +5,7 @@ public class Fr6 {
 
         //stack implementation
         Stack<Integer> st=new Stack<>();
+        Map<Integer,Integer> mp=new HashMap<>();
         st.push(1);
         st.push(2);
         st.push(3);
@@ -14,6 +15,11 @@ public class Fr6 {
         st.pop();
         st.pop();
         System.out.println(st);
+       //class name roll age
+        //stu arraylist
+        //sort on the basis of age
+
+
 
     }
 }

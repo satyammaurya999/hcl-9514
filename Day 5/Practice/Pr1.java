@@ -15,7 +15,9 @@ public class Pr1 {
             System.out.println(e.id + " " + e.name + " " + e.age);
         }
         System.out.println("Descending Order");
-        arr.sort(Comparator.comparingInt((Employee e) -> e.id).reversed());
+//        arr.sort(Comparator.comparingInt((Employee e) -> e.id).reversed());
+//
+
         for (Employee e : arr) {
             System.out.println(e.id + " " + e.name + " " + e.age);
         }
@@ -36,6 +38,13 @@ public class Pr1 {
                     e.id + " " + e.name + " " + e.age
             );
         }
+        class MyComparator implements Comparator<Employee> {
+            @Override
+            public int compare(Employee s1, Employee s2) {
+                return s1.id-s2.id;
+            }
+        }
+        Collections.sort(arr, new MyComparator());
 
     }
 }
@@ -50,4 +59,5 @@ class Employee {
         this.id = id;
         this.name = name;
     }
+
 }
