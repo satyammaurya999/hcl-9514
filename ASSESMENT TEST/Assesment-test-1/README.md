@@ -1,12 +1,8 @@
 # HCL Tech Training - Assessment 2
-
 # NAME-SATYAM MAURYA
 # BRANCH-CSE
 # ROLL NUMBER-2300320100225
-
 ## Library Management System
-
-
 ### Student Details
 - Name: YOUR_NAME
 - Roll Number: YOUR_ROLL_NUMBER
