@@ -5,7 +5,6 @@ import java.util.*;
 import java.util.stream.*;
 
 public class Record {
-
     record Employee(int id, String name, String dept, BigDecimal salary,
                     LocalDate hireDate, Set<String> skills) {}
 
@@ -29,7 +28,6 @@ public class Record {
                 e(7, "Sara", "HR", 62000, "2017-09-09", "Recruiting", "Payroll"),
                 e(8, "Vikram", "Finance", 80000, "2015-04-30", "Excel", "SQL")
         );
-
         // Engineering employees sorted by salary (highest first)
         emps.stream()
                 .filter(emp -> emp.dept().equals("Engineering"))
