@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # backend
 backend/target
 .idea
@@ -8,3 +9,8 @@ frontend/node_modules
 frontend/dist
 
 .env
+=======
+.idea/
+out/
+*.iml
+>>>>>>> bea00f703ca3ee6e681fa6d6879bdb2e65297f91
